@@ -6,7 +6,7 @@ function parImpar(numero) {
     console.log(`El número ${numero} es impar`);
   }
 }
-
+console.log('Ejercicio 1:');
 parImpar(5);
 parImpar(20);
 
@@ -20,7 +20,7 @@ function mayor(primero, segundo) {
     console.log("Ambos números son iguales");
   }
 }
-
+console.log('Ejercicio 2:');
 mayor(5,4);
 mayor(7,10);
 mayor(8,8);
@@ -35,7 +35,7 @@ function multiploDe5(num) {
     console.log(`El número ${num} NO es múltiplo de 5`);
   }
 }
-
+console.log('Ejercicio 3:');
 multiploDe5(10);
 multiploDe5(13);
 
@@ -46,6 +46,7 @@ function contador(numeroContador) {
     console.log(i);
   }
 }
+console.log('Ejercicio 4:');
 contador(4);
 contador(20);
 
@@ -56,7 +57,7 @@ function repetidor(palabra,veces) {
     console.log(palabra);
   }
 }
-
+console.log('Ejercicio 5:');
 repetidor("hola",3);
 
 /*6 - Crear una función que reciba un array por parámetro e imprima por consola todos los valores de ese array.*/
@@ -66,7 +67,7 @@ function valores(arreglo){
     console.log(arreglo[i]);
   }
 }
-
+console.log('Ejercicio 6:');
 valores([2,7,1,9]);
 
 
@@ -83,7 +84,7 @@ function valores2(arreglo){
     console.log("ERROR: Debían ingresarse 10 valores");
   }
 }
-
+console.log('Ejercicio 7:');
 valores2([1,3,5,7,6,5,3,2,12,98]);
 
 /*8 - Crea una función que reciba un array de números y un número por parámetro e imprima por consola cada número del array multiplicado por el número pasado por parámetro.*/
@@ -93,5 +94,5 @@ function multiplicArray(arreglo2,multiplicador){
     console.log(arreglo2[i] * multiplicador);
   }
 }
-
+console.log('Ejercicio 8:');
 multiplicArray([2,3,4],5);

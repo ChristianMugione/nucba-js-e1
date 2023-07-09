@@ -54,7 +54,7 @@ contador(20);
 
 function repetidor(palabra,veces) {
   for (let i=1;i<=veces;i++){
-    console.log(palabra);
+    console.log(i + "- " + palabra);
   }
 }
 console.log('Ejercicio 5:');
